@@ -1,0 +1,73 @@
+h1,h2,h3,h4,h5,h6,ol,ul,p,li{
+    margin: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+:root{
+    --primary-font: 'Abril Fatface', cursive;
+    --secondary-font: 'Open Sans', sans-serif;
+    --third-font: 'Ubuntu', sans-serif;
+}
+
+#top_bar {
+    text-transform: capitalize;
+    font-family: var(--third-font);
+    background-color: #0f2f44;
+    color: #f4f5f5;
+    font-size: 16px;
+    padding: 19px 0px;
+    
+}
+
+#up_bar #menu ul li a{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family:  var( --third-font);
+    font-weight: 500;
+    padding: 40px 19px;
+    color: #222222;
+    display: inline-block;
+
+
+
+}
+
+ul li a:hover{
+    background-color: #fff9e6;
+}
+
+#success{
+    font-size: 80px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+#help{
+    font-size: 50px;
+    font-family: var(--third-font);
+    font-weight: 400;
+}
+
+#picture{
+    background-image: url(./image/blue.png);
+    
+}
+
+#ambition{
+    font-size: 32px;
+    letter-spacing: 21px;
+}
+.image img{
+    width: 100%;
+   
+}
+.heading p{
+    font-size: 14px;
+}
